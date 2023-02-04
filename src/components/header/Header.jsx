@@ -1,11 +1,12 @@
 import styles from "./Header.module.css";
 
-console.log(">>>>>>", styles);
+import IgniteLogo from "../../asstes/ignite-logo.svg";
 
 export function Header() {
   return (
-    <header>
-      <strong className={styles.header}>Ignite feed</strong>
+    <header className={styles.header}>
+      <img src={IgniteLogo} alt="Ignite Logo" />
+      <strong>Ignite Feed</strong>
     </header>
   );
 }
