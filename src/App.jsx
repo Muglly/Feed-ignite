@@ -1,6 +1,6 @@
 import { Header } from "./components/header/header";
 
-import "./styles/styles.css";
+import "./styles/global.css";
 
 function App() {
   return <Header />;
