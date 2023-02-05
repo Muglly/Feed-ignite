@@ -4,12 +4,9 @@
   justify-content: center;
   align-items: center;
   padding: 1.25rem 0;
+  gap: 1rem;
 }
 
 .header img {
   height: 2rem;
-}
-
-.header strong {
-  padding: 0 0.5rem;
 }

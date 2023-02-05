@@ -31,6 +31,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["@types/react", "npm:18.0.27"],\
             ["@types/react-dom", "npm:18.0.10"],\
             ["@vitejs/plugin-react", "virtual:e0f8c1c540d75630f249f054811d1bd54eaa5da172877f79dfbc2ece6e6574ba25ef9cea8a044559653fa8dcbee18a5e9bc0abbc58627a362bb7251ed3fb6e1a#npm:3.1.0"],\
+            ["phosphor-react", "virtual:e0f8c1c540d75630f249f054811d1bd54eaa5da172877f79dfbc2ece6e6574ba25ef9cea8a044559653fa8dcbee18a5e9bc0abbc58627a362bb7251ed3fb6e1a#npm:1.4.1"],\
             ["react", "npm:18.2.0"],\
             ["react-dom", "virtual:e0f8c1c540d75630f249f054811d1bd54eaa5da172877f79dfbc2ece6e6574ba25ef9cea8a044559653fa8dcbee18a5e9bc0abbc58627a362bb7251ed3fb6e1a#npm:18.2.0"],\
             ["vite", "virtual:e0f8c1c540d75630f249f054811d1bd54eaa5da172877f79dfbc2ece6e6574ba25ef9cea8a044559653fa8dcbee18a5e9bc0abbc58627a362bb7251ed3fb6e1a#npm:4.1.1"]\
@@ -1127,6 +1128,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["@types/react", "npm:18.0.27"],\
             ["@types/react-dom", "npm:18.0.10"],\
             ["@vitejs/plugin-react", "virtual:e0f8c1c540d75630f249f054811d1bd54eaa5da172877f79dfbc2ece6e6574ba25ef9cea8a044559653fa8dcbee18a5e9bc0abbc58627a362bb7251ed3fb6e1a#npm:3.1.0"],\
+            ["phosphor-react", "virtual:e0f8c1c540d75630f249f054811d1bd54eaa5da172877f79dfbc2ece6e6574ba25ef9cea8a044559653fa8dcbee18a5e9bc0abbc58627a362bb7251ed3fb6e1a#npm:1.4.1"],\
             ["react", "npm:18.2.0"],\
             ["react-dom", "virtual:e0f8c1c540d75630f249f054811d1bd54eaa5da172877f79dfbc2ece6e6574ba25ef9cea8a044559653fa8dcbee18a5e9bc0abbc58627a362bb7251ed3fb6e1a#npm:18.2.0"],\
             ["vite", "virtual:e0f8c1c540d75630f249f054811d1bd54eaa5da172877f79dfbc2ece6e6574ba25ef9cea8a044559653fa8dcbee18a5e9bc0abbc58627a362bb7251ed3fb6e1a#npm:4.1.1"]\
@@ -1740,6 +1742,28 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           "packageLocation": "./.yarn/cache/path-parse-npm-1.0.7-09564527b7-49abf3d811.zip/node_modules/path-parse/",\
           "packageDependencies": [\
             ["path-parse", "npm:1.0.7"]\
+          ],\
+          "linkType": "HARD"\
+        }]\
+      ]],\
+      ["phosphor-react", [\
+        ["npm:1.4.1", {\
+          "packageLocation": "./.yarn/cache/phosphor-react-npm-1.4.1-a39b349d8f-94aa316eca.zip/node_modules/phosphor-react/",\
+          "packageDependencies": [\
+            ["phosphor-react", "npm:1.4.1"]\
+          ],\
+          "linkType": "SOFT"\
+        }],\
+        ["virtual:e0f8c1c540d75630f249f054811d1bd54eaa5da172877f79dfbc2ece6e6574ba25ef9cea8a044559653fa8dcbee18a5e9bc0abbc58627a362bb7251ed3fb6e1a#npm:1.4.1", {\
+          "packageLocation": "./.yarn/__virtual__/phosphor-react-virtual-7cc730178a/0/cache/phosphor-react-npm-1.4.1-a39b349d8f-94aa316eca.zip/node_modules/phosphor-react/",\
+          "packageDependencies": [\
+            ["phosphor-react", "virtual:e0f8c1c540d75630f249f054811d1bd54eaa5da172877f79dfbc2ece6e6574ba25ef9cea8a044559653fa8dcbee18a5e9bc0abbc58627a362bb7251ed3fb6e1a#npm:1.4.1"],\
+            ["@types/react", "npm:18.0.27"],\
+            ["react", "npm:18.2.0"]\
+          ],\
+          "packagePeers": [\
+            "@types/react",\
+            "react"\
           ],\
           "linkType": "HARD"\
         }]\
