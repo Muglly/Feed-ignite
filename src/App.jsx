@@ -1,4 +1,5 @@
-import { Header } from "./components/header/header";
+import { Post } from "./components/Post/Post";
+import { Header } from "./components/Header/Header";
 import { Sidebar } from "./components/Sidebar/Sidebar";
 
 import "./styles/global.css";
@@ -11,7 +12,10 @@ function App() {
       <Header />
       <div className={styles.wrapper}>
         <Sidebar />
-        <main>post</main>
+        <main>
+          <Post />
+          <Post />
+        </main>
       </div>
     </>
   );

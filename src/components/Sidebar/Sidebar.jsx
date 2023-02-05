@@ -14,11 +14,11 @@ export function Sidebar() {
         <img
           className={styles.avatar}
           src="https://github.com/Muglly.png"
-          alt="foto do perfil de Rafael"
+          alt="foto do perfil"
         />
 
         <strong>Rafael Souza</strong>
-        <span>Desenvolvedor front-end</span>
+        <span>Desenvolvedor Front-end</span>
       </div>
 
       <footer>
