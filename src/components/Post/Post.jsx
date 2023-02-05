@@ -30,7 +30,7 @@ export function Post() {
         </p>
 
         <p>
-          👉 <a href=""> jane.design/doctorcare</a>
+          👉 <a href="">jane.design/doctorcare</a>
         </p>
 
         <p>
@@ -38,6 +38,16 @@ export function Post() {
           <a href="">#rocketseat</a>
         </p>
       </div>
+
+      <form className={styles.commentForm}>
+        <strong>Deixe seu feedback</strong>
+
+        <textarea placeholder="Deixe seu coméntario" />
+
+        <footer>
+          <button type="submit">Publicar</button>
+        </footer>
+      </form>
     </article>
   );
 }
