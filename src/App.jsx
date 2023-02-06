@@ -12,7 +12,7 @@ const posts = [
     author: {
       avatarUrl: "https://github.com/Muglly.png",
       name: "Rafael Souza",
-      role: "Desensenvolvedor Front-end",
+      role: "Desenvolvedor Front-end",
     },
     content: [
       { type: "paragraph", content: "Fala galeraa 👋" },
@@ -25,7 +25,7 @@ const posts = [
 
       { type: "link", content: "👉 jane.design/doctorcare" },
     ],
-    publishedAt: new Date("2023-02-06 12:00:00"),
+    publishedAt: new Date("2023-02-03 12:00:00"),
   },
   {
     id: 2,
@@ -45,7 +45,7 @@ const posts = [
 
       { type: "link", content: "👉 jane.design/doctorcare" },
     ],
-    publishedAt: new Date("2023-02-07 12:00:00"),
+    publishedAt: new Date("2023-02-05 15:00:00"),
   },
 ];
 

@@ -31,6 +31,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["@types/react", "npm:18.0.27"],\
             ["@types/react-dom", "npm:18.0.10"],\
             ["@vitejs/plugin-react", "virtual:e0f8c1c540d75630f249f054811d1bd54eaa5da172877f79dfbc2ece6e6574ba25ef9cea8a044559653fa8dcbee18a5e9bc0abbc58627a362bb7251ed3fb6e1a#npm:3.1.0"],\
+            ["date-fns", "npm:2.29.3"],\
             ["phosphor-react", "virtual:e0f8c1c540d75630f249f054811d1bd54eaa5da172877f79dfbc2ece6e6574ba25ef9cea8a044559653fa8dcbee18a5e9bc0abbc58627a362bb7251ed3fb6e1a#npm:1.4.1"],\
             ["react", "npm:18.2.0"],\
             ["react-dom", "virtual:e0f8c1c540d75630f249f054811d1bd54eaa5da172877f79dfbc2ece6e6574ba25ef9cea8a044559653fa8dcbee18a5e9bc0abbc58627a362bb7251ed3fb6e1a#npm:18.2.0"],\
@@ -984,6 +985,15 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           "linkType": "HARD"\
         }]\
       ]],\
+      ["date-fns", [\
+        ["npm:2.29.3", {\
+          "packageLocation": "./.yarn/cache/date-fns-npm-2.29.3-fef7e3c72c-e01cf5b62a.zip/node_modules/date-fns/",\
+          "packageDependencies": [\
+            ["date-fns", "npm:2.29.3"]\
+          ],\
+          "linkType": "HARD"\
+        }]\
+      ]],\
       ["debug", [\
         ["npm:4.3.4", {\
           "packageLocation": "./.yarn/cache/debug-npm-4.3.4-4513954577-3dbad3f94e.zip/node_modules/debug/",\
@@ -1128,6 +1138,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["@types/react", "npm:18.0.27"],\
             ["@types/react-dom", "npm:18.0.10"],\
             ["@vitejs/plugin-react", "virtual:e0f8c1c540d75630f249f054811d1bd54eaa5da172877f79dfbc2ece6e6574ba25ef9cea8a044559653fa8dcbee18a5e9bc0abbc58627a362bb7251ed3fb6e1a#npm:3.1.0"],\
+            ["date-fns", "npm:2.29.3"],\
             ["phosphor-react", "virtual:e0f8c1c540d75630f249f054811d1bd54eaa5da172877f79dfbc2ece6e6574ba25ef9cea8a044559653fa8dcbee18a5e9bc0abbc58627a362bb7251ed3fb6e1a#npm:1.4.1"],\
             ["react", "npm:18.2.0"],\
             ["react-dom", "virtual:e0f8c1c540d75630f249f054811d1bd54eaa5da172877f79dfbc2ece6e6574ba25ef9cea8a044559653fa8dcbee18a5e9bc0abbc58627a362bb7251ed3fb6e1a#npm:18.2.0"],\
