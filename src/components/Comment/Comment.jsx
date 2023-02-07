@@ -2,10 +2,17 @@ import { Avatar } from "../Avatar/Avatar";
 import { Trash, HandsClapping } from "phosphor-react";
 
 import styles from "./Comment.module.css";
+import { useState } from "react";
 
 export function Comment({ comment, onDeleteComment }) {
+  const [clappingCount, setClappingCount] = useState(0);
+
   function handleDeleteComment() {
     onDeleteComment(comment);
+  }
+
+  function handleClappingCount() {
+    setClappingCount(clappingCount + 1);
   }
 
   return (
@@ -34,8 +41,8 @@ export function Comment({ comment, onDeleteComment }) {
         </div>
 
         <footer>
-          <button>
-            <HandsClapping /> Aplaudir <span>05</span>
+          <button onClick={handleClappingCount}>
+            <HandsClapping /> Aplaudir <span>{clappingCount}</span>
           </button>
         </footer>
       </div>
