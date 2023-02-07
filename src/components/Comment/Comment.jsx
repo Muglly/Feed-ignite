@@ -12,7 +12,9 @@ export function Comment({ comment, onDeleteComment }) {
   }
 
   function handleClappingCount() {
-    setClappingCount(clappingCount + 1);
+    setClappingCount((state) => {
+      return state + 1;
+    });
   }
 
   return (
