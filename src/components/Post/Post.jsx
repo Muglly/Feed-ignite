@@ -32,8 +32,16 @@ export function Post({ author, publishedAt, content }) {
     setNewCommentText("");
   }
 
-  function handleNewCommentChange() {
-    setNewCommentText(event.target.value);
+  function handleNewCommentChange(e) {
+    setNewCommentText(e.target.value);
+  }
+
+  function deleteComment(commentToDelete) {
+    const commentsWithoutDeleteOne = comments.filter((comment) => {
+      return comment !== commentToDelete;
+    });
+
+    setComments(commentsWithoutDeleteOne);
   }
 
   return (
@@ -58,10 +66,10 @@ export function Post({ author, publishedAt, content }) {
       <div className={styles.content}>
         {content.map((line) => {
           if (line.type === "paragraph") {
-            return <p>{line.content}</p>;
+            return <p key={`line-${line.content}`}>{line.content}</p>;
           } else if (line.type === "link") {
             return (
-              <p>
+              <p key={`line-${line.content}`}>
                 <a href="#">{line.content}</a>
               </p>
             );
@@ -79,7 +87,7 @@ export function Post({ author, publishedAt, content }) {
           name="comment"
           placeholder="Deixe seu coméntario"
           value={newCommentText}
-          onChange={handleNewCommentChange}
+          onChange={(e) => handleNewCommentChange(e)}
         />
 
         <footer>
@@ -89,7 +97,13 @@ export function Post({ author, publishedAt, content }) {
 
       <div className={styles.commentList}>
         {comments.map((comment) => {
-          return <Comment key={`comment-${comment}`} comment={comment} />;
+          return (
+            <Comment
+              key={`comment-${comment}`}
+              comment={comment}
+              onDeleteComment={deleteComment}
+            />
+          );
         })}
       </div>
     </article>
