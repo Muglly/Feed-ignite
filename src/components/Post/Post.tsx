@@ -14,11 +14,11 @@ interface AuthorI {
 }
 
 interface ContentI {
-  type: "paragraph" | "link";
+  type: string;
   content: string;
 }
 
-interface PostProps {
+export interface PostProps {
   author: AuthorI;
   content: ContentI[];
   publishedAt: Date;
